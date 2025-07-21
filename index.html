@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Exon | Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header>
+        <nav id="navbar">
+            <ul class="nav-left">
+                <li><a href="#home" class="nav-link" id="home-link">Andrew Exon</a></li>
+                <div class="language-toggle">
+          <img src="images/uk-flag.png" alt="English" class="flag-icon left-flag">
+  
+          <label class="switch">
+            <input type="checkbox" id="language-switch">
+            <span class="slider round"></span>
+        </label>
+  
+          <img src="images/japan-flag.png" alt="Japanese" class="flag-icon right-flag">
+        </div>
+            </ul>
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li><a href="#Projects" class="nav-link">PROJECTS</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        
+
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <h1>Andrew Exon</h1>
+            <p>Data Science & Japanese Major</p>
+        </section>
+
+        <section id="about" class="section">
+            <h1>About Me</h1>
+            <div alt="Profile Picture" class="profile-picture">👤</div>
+            <p>Welcome to my portfolio!</p>
+            <p>I am a motivated and detail-oriented Data Science & Japanese Student with experience in data visualization,
+        Python, and R programming languages. My skills include statistical modeling, simulation, probabilistic
+        reasoning, and communicating my statistical insights which I have developed throughout my studies.
+        I am passionate about Japanese Language and culture and am fluent in written and spoken Japanese and have
+        attained JLPT N2 level proficiency which meets the language requirements to undertake work in Japan.</p>
+        </section>
+        
+
+  <section id="skills" class="section">
+  <div class="toowide">
+    <h2 id="bodyHeader">Skills</h2>
+
+    <div class="carousel-wrapper">
+      <button class="carousel-arrow left" onclick="scrollCarousel(-1)">&#9664;</button>
+
+      <div class="carousel-container" id="skills-carousel">
+        <div class="carousel-slide">
+          <h3>Data Science & Analytics</h3>
+            <p>Regression Analysis</p>
+            <p>Simulation</p>
+            <p>Data Visualization</p>
+            <p>Statistical Modeling</p>
+            <p>Machine Learning</p>
+        </div>
+
+        <div class="carousel-slide">
+          <h3>Tools & Technologies</h3>
+            <p>Python</p>
+            <p>R</p>
+            <p>Jupyter</p>
+            <p>PowerBI</p>
+            <p>Excel</p>
+            <p>HTML</p>
+            <p>LaTeX</p>
+        </div>
+
+        <div class="carousel-slide">
+          <h3>Languages</h3>
+            <p>English (Native)</p>
+            <p>Japanese (Fluent, JLPT N2)</p>
+        </div>
+      </div>
+
+      <button class="carousel-arrow right" onclick="scrollCarousel(1)">&#9654;</button>
+    </div>
+  </div>
+</section>
+        
+        <section id="Projects" class="section">
+            <h1>Projects And Experience</h1>
+            <p>Things I've Worked On</p>
+            <div class="skills-container">
+                <a href="https://www.instagram.com/curtinjapaneseclub/" target="_blank"><img src="images/CJC.jpg" alt="CJC"></a>
+                <a href="https://github.com/Andrew-git-dot" target="_blank"><img src="images/Web-Dev.png" alt="WebDev"></a>
+                <a href="https://workshops.codersforcauses.org/2025-winter/introduction-to-web-development/" target="_blank"><img src="images/cfc_logo_white_circle.png" alt="CFC"></a>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="resume">
+                <a href="images/resume.pdf" target="_blank" class="resume-button">My Resume</a>
+            </div>
+            <h1>Contact</h1>
+            <p>Find Me Here</p>
+            <div class="fixed-icons">
+                <a href="mailto:andrewexon1@gmail.com"><img src="images/mail.svg" alt="Email" class="icon"></a>
+                <a href="https://github.com/Andrew-git-dot" target="_blank"><img src="images/Web-Dev.png" alt="GitHub" class="icon"></a>
+                <a href="https://www.linkedin.com/in/andrew-exon-297146360/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" class="icon"></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

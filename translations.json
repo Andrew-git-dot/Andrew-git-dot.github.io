@@ -1,0 +1,90 @@
+{
+  "en": {
+    "skills": "Skills",
+    "aboutMe": "About Me",
+    "projects": "Projects And Experience",
+    "contact": "Contact",
+    "tagline": "Data Science & Japanese Major",
+    "welcomeMsg": "Welcome to my portfolio!",
+    "aboutParagraph": "I am a motivated and detail-oriented Data Science & Japanese Student with experience in data visualization, Python, and R programming languages. My skills include statistical modeling, simulation, probabilistic reasoning, and communicating my statistical insights which I have developed throughout my studies. I am passionate about Japanese Language and culture and am fluent in written and spoken Japanese and have attained JLPT N2 level proficiency which meets the language requirements to undertake work in Japan.",
+    "findMe": "Find Me Here",
+    "resume": "My Resume",
+    "projectsSubtitle": "Things I've Worked On",
+    "nav": ["ABOUT", "SKILLS", "PROJECTS", "CONTACT"],
+    "carouselSkills": {
+      "dataScience": {
+        "title": "Data Science & Analytics",
+        "items": [
+          "Regression Analysis",
+          "Simulation",
+          "Data Visualization", 
+          "Statistical Modeling",
+          "Machine Learning"
+        ]
+      },
+      "tools": {
+        "title": "Tools & Technologies",
+        "items": [
+          "Python",
+          "R", 
+          "Jupyter",
+          "PowerBI",
+          "Excel",
+          "HTML",
+          "LaTeX"
+        ]
+      },
+      "languages": {
+        "title": "Languages",
+        "items": [
+          "English (Native)",
+          "Japanese (Fluent, JLPT N2)"
+        ]
+      }
+    }
+  },
+  "jp": {
+    "skills": "スキル",
+    "aboutMe": "自己紹介",
+    "projects": "プロジェクトと経験",
+    "contact": "連絡先",
+    "tagline": "データサイエンスと日本語専攻",
+    "welcomeMsg": "私のポートフォリオへようこそ！",
+    "aboutParagraph": "私は、データ可視化、Python、Rプログラミング言語の経験を持つ、意欲的で細部に注意を払うデータサイエンス・日本語学生です。統計モデリング、シミュレーション、確率的推論、および学習を通じて開発した統計的洞察の伝達などのスキルがあります。私は日本語と文化に情熱を持っており、書面および口頭での日本語に堪能で、日本で働くための言語要件を満たすJLPT N2レベルの習熟度を取得しています。",
+    "findMe": "こちらからご連絡ください",
+    "resume": "履歴書",
+    "projectsSubtitle": "取り組んできたこと",
+    "nav": ["紹介", "スキル", "プロジェクト", "連絡先"],
+    "carouselSkills": {
+      "dataScience": {
+        "title": "データサイエンス・分析",
+        "items": [
+          "回帰分析",
+          "シミュレーション",
+          "データ可視化",
+          "統計モデリング", 
+          "機械学習"
+        ]
+      },
+      "tools": {
+        "title": "ツール・技術",
+        "items": [
+          "Python",
+          "R",
+          "Jupyter",
+          "PowerBI", 
+          "Excel",
+          "HTML",
+          "LaTeX"
+        ]
+      },
+      "languages": {
+        "title": "言語",
+        "items": [
+          "英語（ネイティブ）",
+          "日本語（流暢、JLPT N2）"
+        ]
+      }
+    }
+  }
+}
